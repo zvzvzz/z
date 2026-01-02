@@ -22,7 +22,7 @@ body {
     overflow-x: hidden;
 }
 
-/* Subtle Background */
+
 .bg-animation {
     position: fixed;
     width: 100%;
@@ -103,7 +103,7 @@ nav a:hover::after {
     width: 100%;
 }
 
-/* Hero Section */
+
 .hero {
     min-height: 100vh;
     display: flex;
@@ -248,7 +248,7 @@ nav a:hover::after {
     box-shadow: 0 0 80px rgba(139, 92, 246, 0.7);
 }
 
-/* About Section */
+
 .about {
     padding: 6rem 5%;
     background: var(--bg-secondary);
@@ -329,7 +329,7 @@ nav a:hover::after {
     font-weight: 600;
 }
 
-/* Projects Section */
+
 .projects {
     padding: 6rem 5%;
     background: var(--bg-primary);
@@ -401,7 +401,7 @@ nav a:hover::after {
     font-weight: 500;
 }
 
-/* Contact Section */
+
 .contact {
     padding: 6rem 5%;
     background: var(--bg-secondary);
@@ -474,7 +474,7 @@ nav a:hover::after {
     box-shadow: 0 15px 40px rgba(139, 92, 246, 0.5);
 }
 
-/* Footer */
+
 footer {
     background: var(--bg-primary);
     padding: 2rem 5%;
@@ -486,7 +486,7 @@ footer p {
     color: var(--text-secondary);
 }
 
-/* Mobile Menu */
+
 #menu-icon {
     display: none;
     font-size: 2rem;
@@ -494,7 +494,7 @@ footer p {
     cursor: pointer;
 }
 
-/* Responsive Design */
+
 @media (max-width: 968px) {
     .hero-content {
         grid-template-columns: 1fr;
@@ -535,4 +535,5 @@ footer p {
     .projects-grid {
         grid-template-columns: 1fr;
     }
+
 }
